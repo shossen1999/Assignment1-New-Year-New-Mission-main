@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    
+
 }
 
 
@@ -41,27 +41,30 @@ body {
 
 }
 
-header {
+.banner-body {
     background-image: url('images/Banner\ Image.png');
 
     background-repeat: no-repeat;
-    width: 1320px;
+   background-size: cover;
+   background-position: center;
+   max-width: 1320px;
+   width: 100%;
     height: 600px;
     margin-top: 50px;
     margin-left: 140px;
-   margin-right: 140px;
-     margin-bottom: 0px;
+    margin-right: 200px;
+   
+
+
 }
 
 
 
 
-main {
-    
-}
+main {}
 
 .main-section {
-    margin-top: 120px;
+    /* margin-top: 120px; */
     margin-left: 399px;
     margin-right: 399px;
 }
@@ -102,7 +105,7 @@ main {
     width: 100%;
     height: auto;
     margin-top: 20px;
-   
+
 }
 
 
@@ -111,7 +114,7 @@ main {
     margin-top: 120px;
     margin-right: 140px;
     margin-bottom: 120px;
-    
+
     margin-left: 140px;
 
 }
@@ -133,16 +136,16 @@ main {
     color: #FFF;
     font-family: Merriweather;
     font-size: 48px;
-   
+
     font-style: normal;
     font-weight: 900;
     line-height: 66px;
 
     letter-spacing: 7.04px;
     margin-top: 50px;
-   
+
     margin-left: 50px;
-   
+
     margin-bottom: 24px;
 }
 
@@ -168,13 +171,13 @@ main {
     line-height: normal;
     text-transform: uppercase;
     margin-left: 158px;
-   
+
     position: absolute;
-    
+
     bottom: 160px;
-    
+
     left: 30px;
-   
+
     background: transparent;
     border: none;
 }
@@ -188,7 +191,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-left: 20px;
-    
+
     filter: radial-gradient(50% 50% at 50% 50%, #690B02 27%, #8F4941 39%, #B18079 51%, #CDADA8 62%, #E3D1CD 73%, #F2EAE7 84%, #FCFAF6 93%, #FFFFFC 100%);
 }
 
@@ -204,7 +207,7 @@ main {
     color: #F00;
 }
 
-.PDT-content{
+.PDT-content {
     text-align: center;
     font-family: Inter;
     font-size: 32px;
@@ -218,7 +221,7 @@ main {
 
 
 
-.PDT-button  {
+.PDT-button {
     display: inline-flex;
     padding: 16px 32px;
     justify-content: center;
@@ -245,14 +248,15 @@ main {
     margin-top: 120px;
     margin-left: 140px;
     margin-right: 140px;
-   margin-bottom: 120px;
+    margin-bottom: 120px;
 
 
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 
-    width: 1320px;
+    width: 1250px;
     height: 482px;
 }
+
 /* bonus-section */
 
 
@@ -356,7 +360,7 @@ main {
     /* margin-top: 120px; */
     margin-right: 140px;
     /* margin-bottom: 120px; */
-    
+
     margin-left: 140px;
 
 
@@ -451,12 +455,12 @@ main {
     background: rgba(255, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
-   
+
     justify-content: center;
     align-items: center;
     margin: 120px auto;
     position: relative;
-    
+
 }
 
 .image-overlay {
@@ -479,23 +483,23 @@ main {
 #subscribe .subscribe-message-img {
     text-align: center;
     padding: 20px;
-   
+
     margin-top: 20px;
-   
+
 }
 
 #subscribe .subscribe-content {
     text-align: center;
     padding: 20px;
-   
+
     margin-top: 110px;
-    
+
 }
 
 #subscribe h1 {
     font-size: 2em;
     margin-bottom: 10px;
-    
+
     color: #070211;
     text-align: center;
     font-family: Merriweather;
@@ -522,9 +526,8 @@ main {
 
 
 
-#subscribe form input[type="email"]
-{
-    background:#fff;
+#subscribe form input[type="email"] {
+    background: #fff;
     width: 340px;
     height: 50px;
     border: none;
@@ -535,8 +538,7 @@ main {
 
 }
 
-#subscribe form input[type="submit"]
-{
+#subscribe form input[type="submit"] {
     position: relative;
     left: -5px;
     border-radius: 0 25px 25px 0;
@@ -545,7 +547,7 @@ main {
     border: none;
     outline: none;
     cursor: pointer;
-    background:#dc3545;
+    background: #dc3545;
     color: #fff;
 
 
@@ -554,7 +556,7 @@ main {
 }
 
 
-    
+
 
 /* footer-section */
 
