@@ -302,7 +302,7 @@ main {
 .gift-images1 img {
     width: 100%;
     border-radius: 16px;
-   
+
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 
 }
@@ -324,7 +324,7 @@ main {
 .gift-images2 img {
     width: 100%;
     border-radius: 16px;
-   
+
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 
 }
@@ -440,4 +440,98 @@ main {
     cursor: pointer;
     margin-top: 10px;
     /* Adjusted margin at the top */
+}
+
+/* footer-section */
+
+.footer-section {
+    width: 1600px;
+    height: 509px;
+    background: #070211;
+}
+
+.footer-first-left {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    width: 375px;
+    height: 80px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+.footer-first-right {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    padding-right: 240px;
+    padding-top: 100px;
+
+}
+
+.footer-first {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+hr {
+    /* background: rgba(255, 255, 255, 0.15); */
+    width: 1320px;
+    height: 2px;
+
+
+    border: 0px solid black;
+
+
+    background: rgba(255, 255, 255, 0.15);
+
+    /* margin: 20px 240px 0 120px; */
+    margin-left: 140px;
+    margin-left: 140px;
+
+    transition: background-color 0.3s ease;
+
+}
+
+
+hr:hover {
+    background-color: rgb(28, 139, 154);
+    border: none;
+    height: 3px;
+}
+
+.footer-second {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.footer-second img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+
+}
+
+.copyright{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-right: 140px;
 }
